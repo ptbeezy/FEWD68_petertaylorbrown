@@ -1,0 +1,21 @@
+/* THIS IS A COMMENT*/
+
+		h1 {
+			padding-left:60px;
+			padding-top:40px;
+		}
+		section {
+			background: #ffffff;
+			padding:40px;
+			margin:20px;
+		}
+		body {
+			background: #f1f1f1;
+			padding:0;
+		}
+		footer {
+			padding-left: 60px;
+			background: black;
+			color: white;
+			margin: 0px;
+		}
