@@ -1,0 +1,20 @@
+
+ASSIGNMENT 1
+
+For the first assignment, you will begin creating the beginnings of your first website. Take what you've learned from class and build a portfolio site that showcases all of the projects you'll be completing over the next few weeks. Build two pages - an 'About Page' and a 'Portfolio' - that link to one another. Your 'About Page' should describe your mission and value proposition and your 'Portfolio' should include screenshots with descriptions of the work you will do during this class. In your Class 1 --> Assignment 1 folder you'll find two images as an example about and portfolio page and a starter code folder with text and a few images of the projects we're going to work on. 
+-Link both pages together using a tag
+-Use a unique title and a single unique h1 tag
+-Show images using img tags including unique alt attributes
+-Use at least 6 different HTML tags (h1, h2, h3, h4, h5, h6, p, ul, ol, a, img) on your pages
+-Follow naming conventions, maintain consistency across your .html files
+-Indent nested elements to increase your code's readability
+
+
+
+Assignment 2:
+
+Continue to work on your portfolio website.
+done-Add a reset or normalize CSS file.
+done-How can you use Floats in your layout? (Hint: Maybe for the images.)
+done-Use a pseudo-class to create a drop-letter/drop-cap in your about page. What is that you ask? Take a look at this link to learn more. https://css-tricks.com/snippets/css/drop-caps/
+done-Use a pseudo-selector to a replace the bullets in your navigation with your own graphic/icon. (Hint: Take a look at :before)

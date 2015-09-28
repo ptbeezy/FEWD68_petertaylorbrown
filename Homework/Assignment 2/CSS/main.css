@@ -1,0 +1,105 @@
+html {
+	background-color: #f1f1f1;
+}
+
+body {
+	margin-top: 20px;
+}
+
+h1 {
+	font-family: "Open Sans";
+	font-weight: 800;
+	font-size: 24px;
+	text-align: left;
+	margin: 60px 40px 40px 60px;
+	display: inline-block;
+}
+
+h2 {
+	color: #1f1f1f;
+	font-family: "Open Sans";
+	font-size: 72px;
+	font-weight: 800;
+	text-align: center;
+	margin:	40px 40px 40px 40px;
+}
+
+h3 {
+	color: #F1C40F;
+	font-family: "Open Sans";
+	font-weight: 800;
+}
+
+p, li {
+	color: #1f1f1f;
+	font-family: "Open Sans";
+	font-weight: 400;
+	line-height: 21px;
+}
+
+p::first-letter {
+	float: left;
+	font-size: 72px;
+	font-weight: 700;
+	padding-top: 18px;
+	padding-bottom: 20px;
+	padding-right: 16px;
+
+}
+
+a {
+	color: #1f1f1f;
+	font-family: "Open Sans";
+	text-decoration: none;
+}
+
+.project-image {
+	display: block;
+	margin: auto;
+	margin-bottom:40px;
+}
+
+.project-image:hover{
+	opacity: 0.4;
+}
+
+.text-container {
+	margin: auto;
+	margin-bottom: 60px;
+	max-width: 560px;
+}
+
+.nav {
+	/* border: 1px solid red; */
+	float: right;
+	text-align: center;
+	margin: 60px;
+}
+
+.nav li{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 400;
+	list-style: none;
+	margin-left: 60px;
+	padding-bottom: 8px;
+}
+
+.nav-selected {
+	border-bottom: 4px solid #1f1f1f;
+}
+	
+.nav-selected a:hover, .nav-unselected a:hover {
+	color: red;
+}
+
+#myPortfolio::before {
+	content:url('../assets/briefcase85.png');
+	padding-right: 8px;
+
+}
+
+#aboutMe::before {
+	content:url('../assets/profile5.png');
+	padding-right: 8px;
+}
