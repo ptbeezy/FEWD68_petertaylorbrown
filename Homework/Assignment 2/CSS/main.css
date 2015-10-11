@@ -94,12 +94,14 @@ a {
 }
 
 #myPortfolio::before {
-	content:url('../assets/briefcase85.png');
+	content:url('../assets/briefcase85.svg');
+	width: 50%;
+	height: auto;
 	padding-right: 8px;
 
 }
 
 #aboutMe::before {
-	content:url('../assets/profile5.png');
+	content:url('../assets/profile5.svg');
 	padding-right: 8px;
 }
