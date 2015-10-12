@@ -1,4 +1,4 @@
-2/*
+/*
 Project Name: Relaxr
 Client: Your Client
 Author: Peter Taylor-Brown
@@ -83,14 +83,6 @@ header {
   position: relative;
 }
 
-h1 {  
-  color: white;
-  display: inline-block;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 40px;
-  font-weight: 800;
-}
-
 h2 {
   color: #033048;
   font-family: 'Open Sans', sans-serif;
@@ -105,6 +97,7 @@ h3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 32px;
   font-weight: 800;
+  margin-bottom: 24px
 }
 
 
@@ -115,11 +108,8 @@ hr {
 }
 
 nav {
-  
-}
-
-nav ul { 
   float: right;
+  padding-top: 12px;
 }
 
 nav li {
@@ -136,9 +126,6 @@ nav li a {
   text-decoration: none;
 }
 
-img {
-}
-
 span > a {
   color: #033048;
   float: right;
@@ -147,8 +134,8 @@ span > a {
   font-weight: 600;
   padding-bottom: 40px;
   position: relative;
-
 }
+
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -169,19 +156,54 @@ span > a {
   margin: 24px 0 24px 0;
 }
 
-.content-container {
+.footer-info-container {
+  width: 200px;
+  position: relative;
+  margin: 0 auto;r
+}
+
+.footer-copyright {
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 110px;
+  position: relative; 
+}
+
+.header-container { 
+/*  border: 1px solid red;*/
+  clear: both;
+  margin: 0 auto;
+  padding-top: 36px;
+  position: relative;
+  width: 960px;
+}
+
+.logo {
+  color: white;
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.logo-yellow {
+  color: #f9e42e;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  padding: 70px 0;
+}
+
+.page-container {
  /* border: 1px solid yellow;*/
   display: block;
   margin: auto;
   margin-top: 70px;
   margin-bottom: 70px;
-  width: 960px;
-}
-
-.header-container { 
-/*  border: 1px solid red;*/
-  margin: 0 auto;
-  position: relative;
   width: 960px;
 }
 
@@ -192,6 +214,28 @@ span > a {
   width: 700px;
 }
 
+.sidebar-about {
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.sidebar-about-link {
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.sidebar-ad-unit {
+  margin-top: 48px;
+}
+
 .sidebar-container {
 /*  border: 1px solid red;*/
   float: right;
@@ -199,10 +243,78 @@ span > a {
   width: 240px;
 }
 
+.sidebar-categories {
+  margin-bottom: 40px;
+}
+
+.sidebar-categories > li {
+  margin-bottom: 8px;
+}
+
+.sidebar-categories > li a{
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.sign-up-button { 
+  background-color: #033048;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  height: 60px;
+  margin: 0 auto;
+  padding: 0 48px 0 48px;
+  position: relative;
+  top: 32px;
+}
+
 .sign-up-section { 
   background-color: #f9e42e;
   height: 120px;
 }
+
+.social-logo-container {
+  display: block;
+  float: left;
+  padding-left: 46px;
+  position: relative;
+}
+
+.social-logo-container li{
+  display: inline-block;
+}
+
+.social-logo{
+  display: inline-block;
+  padding-right: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
