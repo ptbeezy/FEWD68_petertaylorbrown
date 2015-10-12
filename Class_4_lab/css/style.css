@@ -272,12 +272,12 @@ span > a {
   margin: 0 auto;
   padding: 0 48px 0 48px;
   position: relative;
-  top: 32px;
 }
 
 .sign-up-section { 
   background-color: #f9e42e;
-  height: 120px;
+  max-height: 120px;
+  padding: 30px;
 }
 
 .social-logo-container {
