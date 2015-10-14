@@ -1,0 +1,50 @@
+var playerOne;
+var playerTwo;
+
+function whoWins() {
+	
+	if playerOne = "rock" {
+		if playerTwo = "rock"{
+			return they match so play again
+			}
+		if playerTwo = "paper"{
+			return playerTwo wins
+			}
+		if playerTwo = "scissors"{
+			return playerOne wins
+			}
+		elseif {
+			entry error
+		}
+	}
+	
+	if playerOne = "paper" {
+		if playerTwo = "rock"{
+			return playerOne wins
+			}
+		if playerTwo = "paper"{
+			return they match so play again
+			}
+		if playerTwo = "scissors"{
+			return playerTwo wins
+			}
+		elseif {
+			entry error
+		}
+	}
+
+	if playerOne = "scissors" {
+		if playerTwo = "rock"{
+			return playerTwo wins
+			}
+		if playerTwo = "paper"{
+			return playerOne wins
+			}
+		if playerTwo = "scissors"{
+			return they match so play again
+			}
+		elseif {
+			entry error
+		}
+	}	
+}

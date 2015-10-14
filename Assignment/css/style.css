@@ -41,6 +41,9 @@ Developer @GA in NYC
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
+.aligncenter {
+
+}
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -51,7 +54,7 @@ body {
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+    background-size: cover;
 }
 
 
@@ -68,7 +71,10 @@ body {
 }
 
 header {
-
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 960px;
 }
 
 footer {
@@ -76,9 +82,52 @@ footer {
 }
 
 /******************************************
-/* ADDITIONAL STYLES
+/* Colors
 /*******************************************/
 
 
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
 
+.landing-container {
+  content: url(..images/relaxr_landing.jpg);
+  padding-top: 48px;
+}
+
+
+.landing-text {
+  color: white;
+  display: block;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  margin-bottom: 48px;
+  position: relative;
+  text-align: center;
+}
+
+.logo-white {
+  color: white;
+  display: block;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  margin: 48px 0 140px 0;
+}
+
+.button-yellow {
+  background-color: #f9e42e;
+  border: none;
+  border-radius: 5px;
+  color: #033048;
+  display: block;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  height: 60px;
+  padding: 0 48px 0 48px;
+  position: relative;
+  margin: 0 auto;
+}
 
