@@ -41,9 +41,6 @@ Developer @GA in NYC
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
-.aligncenter {
-
-}
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -70,6 +67,12 @@ body {
 
 }
 
+
+footer {
+
+}
+
+
 header {
   display: block;
   position: relative;
@@ -77,10 +80,10 @@ header {
   width: 960px;
 }
 
-footer {
-
+h2 {
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
 }
-
 /******************************************
 /* Colors
 /*******************************************/
@@ -90,11 +93,15 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
-.landing-container {
-  content: url(..images/relaxr_landing.jpg);
-  padding-top: 48px;
+#benefits-section {
+  background-color: white;
+  display: block;
+  height: 610px;
 }
 
+#hero-section {
+  content: url(..images/relaxr_landing.jpg);
+}
 
 .landing-text {
   color: white;
@@ -110,8 +117,8 @@ footer {
 .logo-white {
   color: white;
   display: block;
-  font-size: 24px;
   font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
   font-weight: 800;
   margin: 48px 0 140px 0;
 }
