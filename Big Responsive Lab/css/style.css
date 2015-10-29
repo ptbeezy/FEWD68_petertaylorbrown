@@ -1,0 +1,176 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+/******************************************
+/* MOBILE FIRST
+/*******************************************/
+  
+  .container {
+    margin: 0 auto;
+    max-width: 1280px;
+    position: relative;
+  }
+
+  .button-yellow {
+    background: yellow;
+    border: none;
+    border-bottom: 2px solid gray;
+    border-radius: 4px;
+    display: block;
+    height: 44px;
+    margin: 0 auto;
+    position: relative;
+    width: 200px;
+  }
+  
+  .button-gray {
+    background: #e5e5e5;
+    border: none;
+    border-bottom: 2px solid gray;
+    border-radius: 4px;
+    display: block;
+    height: 44px;
+    margin: 0 auto;
+    position: relative;
+    width: 200px;
+  }
+
+  footer {
+    background: black;
+    padding: 20px;
+  }
+
+  footer p {
+    color: white;
+    margin: 0px;
+  }
+
+  header {
+    background: black;
+    border-bottom: 4px solid yellow;
+    padding: 24px 32px;
+  }
+
+  h2 {
+    margin: 0px;
+  }
+
+  .landing-container {
+    background: url(../images/coworking.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 260px;
+    padding: 20px;
+  }
+
+  .landing-cta-container {
+    background: rgba(255,255,255, 0.7);
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    position: relative;
+  }
+
+  #lazy-ham {
+    background: white;
+    display: inline-block;
+    float: right;
+    height: 44px;
+    width: 44px;
+  }
+
+  #lazy-ham:hover {
+    cursor: pointer;
+  }
+
+  .logo-yellow {
+    color: yellow;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0px;
+  }
+  
+  .main-content-container {
+    padding: 20px;
+  }
+
+  .module-home {
+    margin-bottom: 64px;
+    padding: 20px;
+    border: 1px solid red;
+  }
+
+  nav a {
+    text-decoration: none;
+  }
+
+  nav ul {
+    padding: 0px;
+    margin-top: 32px;
+  }
+  
+  nav li {
+    color: white;
+    padding: 32px;
+    text-align: center;
+  }
+
+  .navHidden {
+    display: none;
+  }
+
+
+/******************************************
+/* DESKTOP
+/*******************************************/
+
+@media (min-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+
+  .landing-container {
+    height: 500px;
+    padding-top: 100px;
+  }
+
+  .landing-cta-container {
+    float: right;
+  }
+
+  .module-home-container {
+    display: inline-block;
+    float: left;
+    padding: 20px;
+    width: 33.33%;
+  }
+}
+
+
+
