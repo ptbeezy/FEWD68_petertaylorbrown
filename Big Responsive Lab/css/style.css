@@ -126,6 +126,10 @@ Developer @GA in NYC
     border: 1px solid red;
   }
 
+  nav {
+    float: none;
+  }
+
   nav a {
     text-decoration: none;
   }
@@ -140,9 +144,13 @@ Developer @GA in NYC
     padding: 32px;
     text-align: center;
   }
-
+  
   .navHidden {
     display: none;
+  }
+
+  .navShow {
+    display: block;
   }
 
 
@@ -169,6 +177,30 @@ Developer @GA in NYC
     float: left;
     padding: 20px;
     width: 33.33%;
+  }
+
+  #lazy-ham {
+    display: none;
+  }
+
+  #nav-container {
+    display: inline-block;
+    float: right;
+    margin-top: 0px;
+    padding: 0px;
+  }
+
+  nav ul {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  nav li {
+    display: inline-block;
+    color: white;
+    padding: 0px;
+    padding-right: 32px;
+    text-align: center;
   }
 }
 

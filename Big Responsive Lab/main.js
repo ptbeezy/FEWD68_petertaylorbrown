@@ -1,5 +1,5 @@
 $(document).ready(function() {
   $("#lazy-ham").click(function() {
-      $("#nav-container").toggleClass( "navHidden" );
+      $("#nav-container").toggleClass( "expand" );
   });
 })
