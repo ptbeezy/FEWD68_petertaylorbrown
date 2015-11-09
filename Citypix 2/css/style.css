@@ -139,6 +139,10 @@ header {
   background-image: url(../images/sydney.jpg)
 }
 
+.default {
+  background-image: url(../images/citipix_skyline.jpg)
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
