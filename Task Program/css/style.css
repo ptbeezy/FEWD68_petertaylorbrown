@@ -1,0 +1,73 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.cf:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+ul.check li {
+  padding: 16px;
+}
+
+li:hover {
+  background-color: #f1f1f1;
+}
+
+ul.check {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.check {
+  list-style: none;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.main-wrapper {
+  margin: 60px auto 0;
+  position: relative;
+  width: 600px;
+}
+
+#new-action {
+  font-size: 16px;
+  height: 48px;
+  padding: 16px;
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.show-completed {
+  border-top: 1px solid #e5e5e5;
+  color: #e5e5e5;
+  margin: 32px 0px 0px 40px;
+  padding-top: 8px;
+  text-decoration: none;
+
+}
