@@ -12,7 +12,7 @@ $(document).ready(function(){
     console.log('list appended successfully');
     for (var i = 0; i <= actionItems.length - 1 ; i++) {
       $('#action-items').append(
-        '<li id="action-item-'+i+'" class="action-item"><input type="checkbox" checked="checked"><label for="action-item-'+i+'">'+actionItems[i]+'</label></li>');
+        '<li id="action-item-'+i+'" class="action-item"><input type="checkbox"><label for="action-item-'+i+'">'+actionItems[i]+'</label></li>');
     };
   });
 
@@ -26,7 +26,7 @@ $(document).ready(function(){
     });
 
   //Read when user clicks an action item, set child checkbox to true
-  $('li').on('click',function(){
+  $('.action-item').on('click',function(){
     console.log('click');
     //check the current checkbox status true or false
     var status = $(this).children('input').is(':checked');
