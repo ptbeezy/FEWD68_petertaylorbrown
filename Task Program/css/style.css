@@ -20,54 +20,155 @@
 }
 
 /******************************************
-/* LAYOUT
+/* Structure
 /*******************************************/
 
-ul.check li {
-  padding: 16px;
+h1 {
+  border-bottom: 2px solid #e5e5e5;
+  color: #6FA7E8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 16px;
+  margin-top: 60px;
 }
 
-li:hover {
-  background-color: #f1f1f1;
+h1:before {
+  background-color: #6FA7E8;
+
+
 }
 
-ul.check {
-  margin: 0px;
-  padding: 0px;
+h2 {
+  color: #6D757D;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
 }
 
+label {
+  color: #585858;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
 
+section {
+  border-bottom: 2px solid #f1f1f1;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
-.check {
-  list-style: none;
-}
-
-input[type="checkbox"] {
-  margin-right: 8px;
-}
-
-.main-wrapper {
-  margin: 60px auto 0;
+.wrapper {
+  margin: 32px auto 0;
   position: relative;
   width: 600px;
 }
 
-#new-action {
-  font-size: 16px;
+#actionItems {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 16px;
+}
+
+#actionItems li {
+  padding: 16px;
+}
+
+#actionItems li:hover {
+  background-color: #fafafa;
+}
+
+#actionItems li a {
+  color: #e5e5e5;
+  visibility: hidden;
+  float: right;
+  padding-left: 16px;
+  text-decoration: none;
+}
+
+#actionItems li:hover a {
+  visibility: visible;
+}
+
+#actionItems li .remove-btn:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#actionItems li .edit-btn:hover {
+  color: #6FA7E8;
+  cursor: pointer;
+}
+
+#actionItems li.undo .undo-btn {
+  color: #e5e5e5;
+  float: none;
+  visibility: visible;
+}
+
+#actionItems li.undo:hover .undo-btn {
+  color: red;
+}
+
+#actionInput {
+  border: 1px solid #f1f1f1;
+  color: #585858;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
   height: 48px;
   padding: 16px;
   margin-bottom: 32px;
   width: 100%;
 }
 
+#editField {
+  padding: 16px;
+  width: 100%;
+}
+
+#editSubmit {
+  display: none;
+}
+
+.inactive {
+  color: #DDDDDD;
+}
+
+.inactive:hover {
+  color: #6FA7E8;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+li.undo:hover a {
+  color: red;
+}
+
 .show-completed {
-  border-top: 1px solid #e5e5e5;
+  border-top: 2px solid #f1f1f1;
   color: #e5e5e5;
-  margin: 32px 0px 0px 40px;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  margin: 0px 0px 0px 40px;
+  padding-bottom: 60px;
   padding-top: 8px;
   text-decoration: none;
-
+  width: 170px;
 }
+
+.show-completed:hover {
+  color: #6FA7E8;
+}
+
+#submitBtn {
+  display: none;
+}
+

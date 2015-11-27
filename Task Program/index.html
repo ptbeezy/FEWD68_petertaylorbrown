@@ -3,24 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
   <header>
-    <div class="main-wrapper">
+    <div class="wrapper">
       <h1>Client News</h1>
-      <hr>
-      <form>
-        <h2>Action Items</h2>
-        <input type="text" name="newaction" id="new-action" placeholder="Enter a new action item...">
-        <ul class="check" id="action-items">
-        <!-- list generated here -->
-        </ul>
-      </form>
-      <a class="show-completed" href="#">show completed</a>
     </div>
-
   </header>
+    <div class="wrapper">
+      <section class="action-container">
+        <form>
+          <input type="text" name="actionInput" id="actionInput" placeholder="Add a new action item...">
+          <input type="submit" id="submitBtn">
+          <h2>Action Items</h2>
+          <ul id="actionItems"></ul>
+          <a class="show-completed" href="#">show all completed</a>
+        </form>
+      </section>
+      <section class="backburner-container">
+        <h2 class="inactive">Backburner</h2>
+      </section>
+      <section class="references-container inactive">
+        <h2 class="inactive">References</h2>
+      </section>
+    </div>
+    
+    
   
   <footer>
     
@@ -29,4 +40,4 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 </body>
-</html>s
+</html>
